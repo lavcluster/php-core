@@ -1,0 +1,19 @@
+{
+    "name": "lavcluster/php-core",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis A. Vega",
+            "email": "luis.vega@gemcluster.site"
+        }
+    ],
+    "require": {
+    	"php" : "^7.0"
+    },
+    "autoload": {
+    	"psr-4": {
+	    	"Lav\\Core\\": "src/"
+    	}
+    }
+}
